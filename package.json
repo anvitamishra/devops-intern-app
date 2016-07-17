@@ -12,5 +12,15 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "haproxy": "^0.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvitamishra/devops-intern-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/anvitamishra/devops-intern-app/issues"
+  },
+  "homepage": "https://github.com/anvitamishra/devops-intern-app#readme"
 }
