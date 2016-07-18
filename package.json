@@ -4,8 +4,8 @@
   "description": "Simple RESTful API",
   "main": "index.js",
   "scripts": {
-    	"start": "node app.js",
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "mocha test"
   },
   "author": "Anvita Mishra",
   "license": "ISC",
@@ -14,7 +14,11 @@
     "express": "^4.14.0",
     "haproxy": "^0.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "hippie": "^0.5.0",
+    "mocha": "^2.5.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anvitamishra/devops-intern-app.git"

@@ -1,17 +1,15 @@
 var express = require("express")
-var bodyParser = require("body-parser")
 var app = express();
+var exports = module.exports = {};
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended:true }));
-
-var routes = require("./routes/routes.js")(app);
+app.get('/', function(req, res) {
+	res.send('Hello World');
+});
 
 var server = app.listen(3000, function () {
 	console.log("Listening on port %...", server.address().port);
 });
 
-var routes = require("./routes/routes.js")(app);
-
-
-
+exports.closeServer = function() {
+	server.close();
+};
