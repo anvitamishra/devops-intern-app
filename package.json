@@ -16,8 +16,11 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "expect": "^1.20.2",
     "hippie": "^0.5.0",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "superagent": "^2.1.0",
+    "supertest": "^1.2.0"
   },
   "repository": {
     "type": "git",
