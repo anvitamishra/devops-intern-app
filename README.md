@@ -24,7 +24,7 @@ To run the tests:
 `npm test`
 
 <h1><b>Integration on Codeship:</b></h1>
-Continuous integration is handled on Codeship (an add in GitHub and Heroku)
+Continuous integration is handled on Codeship (an add-on in GitHub and Heroku)
 
 (Check out the demo folder to see it in action).
 
