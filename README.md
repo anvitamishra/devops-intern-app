@@ -1,3 +1,5 @@
+<b>Hello Unu!<b>
+
 This is a simple REST API server with one endpoint. The application prints 'Hello Unu' on the browser.
 
 The development is done using Node.js and the app is tested using Mocha and Chai frameworks. 
