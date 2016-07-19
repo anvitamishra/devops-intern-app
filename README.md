@@ -19,6 +19,19 @@ This project is titled "boiling-hollows-76439" on Heroku.
 Link for Hello Unu:
 https://boiling-hollows-76439.herokuapp.com/
 
+<h3> Some terms related to scaling: </h3>
+
+Cluster = a group of servers
+
+Load-balancer = distributes work-load between servers in a cluster
+
+To horizontally scale the app, one or more web-servers can be added to the cluster to handle more requests from the user.
+
+<h3> Scenario: </h3>
+
+Hello Unu has two servers which handle requests from the user.
+User A from Unu wants someone to say "Hello" to him. He makes a request and the loadbalancer will forward his request to server1. Then User B wants someone to say "Hello" to her. Her request gets forwarded to another node from the cluster i.e. server2. Then 100 other users want someone to say "Hello" to them. So we can scale the app and add more servers so they can balance the load of the requests on the application.
+
 <h1><b>Mocha for testing:</b></h1>
 
 This app uses Mocha with Chai for integration and unit testing.
