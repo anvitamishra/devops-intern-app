@@ -1,1 +1,22 @@
+Used Heroku for app deployment:
+
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
+
+
+TO SCALE THE APPLICATION
+Change the web # to the scale you want in the following command:
+
+heroku ps:scale web=0
+
+
+
+
+
+Mocha for testing:
+
+This app uses Mocha with Chai for integration and unit testing.
+
+To run the tests:
+
+npm test
 
