@@ -11,9 +11,9 @@ https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
 To scale the application:
 Change the web # to the scale you want in the following command:
 
-heroku ps:scale web=0
+`heroku ps:scale web=0`
 
-Link for application:
+Link for Hello Unu:
 https://boiling-hollows-76439.herokuapp.com/
 
 <h1><b>Mocha for testing:</b></h1>
@@ -21,9 +21,13 @@ https://boiling-hollows-76439.herokuapp.com/
 This app uses Mocha with Chai for integration and unit testing.
 To run the tests:
 
-npm test
+`npm test`
 
-Tests running on integration:
+Integration on Codeship:
+Continuous integration is handled on Codeship (an add in GitHub and Heroku)
+
+(Check out the demo folder to see it in action).
+
 
 
 
