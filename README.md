@@ -4,7 +4,8 @@ The development is done using Node.js and the app is tested using Mocha and Chai
 
 <h1><b>Heroku for deployment:</b></h1>
 
-The application is deployed on Heroku.
+The application is deployed on Heroku. Heroku allows for horizontal scaling of applications using CLI as well as Heroku's dashboard for the application.
+
 To install, here's the setup guide:
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
 
@@ -12,6 +13,8 @@ To scale the application:
 Change the web # to the scale you want in the following command:
 
 `heroku ps:scale web=0`
+
+This project is titled "boiling-hollows-76439" on Heroku.
 
 Link for Hello Unu:
 https://boiling-hollows-76439.herokuapp.com/
