@@ -2,7 +2,7 @@ This is a simple REST API server with one endpoint. The application prints 'Hell
 
 The development is done using Node.js and the app is tested using Mocha and Chai frameworks. 
 
-<h1><b>Heroku:</b></h1>
+<h1><b>Heroku for deployment:</b></h1>
 
 The application is deployed on Heroku.
 To install, here's the setup guide:
@@ -23,7 +23,7 @@ To run the tests:
 
 `npm test`
 
-Integration on Codeship:
+<h1><b>Integration on Codeship:</b></h1>
 Continuous integration is handled on Codeship (an add in GitHub and Heroku)
 
 (Check out the demo folder to see it in action).
