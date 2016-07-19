@@ -42,7 +42,7 @@ To run the tests:
 <h1><b>Integration on Codeship:</b></h1>
 Continuous integration is handled on Codeship (an add-on in GitHub and Heroku)
 
-(Check out the demo folder to see it in action).
+(Check out the <b>demo</b> folder to see it in action).
 
 
 
