@@ -1,4 +1,4 @@
-<b>Hello Unu!<b>
+<b>Hello Unu!</b>
 
 This is a simple REST API server with one endpoint. The application prints 'Hello Unu' on the browser.
 
